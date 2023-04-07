@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'poppins';
+
+}
+body{
+	background-color: #393D3F;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.wrapper{
+	background: linear-gradient(#2e2e2e ,#000);
+	display: flex;
+	align-items: center;
+	color: #08B2E3;
+	padding: 15px 30px;
+	font-size: 50px;
+	/* border: 1px solid red; */
+	border-radius: 10px;
+	box-shadow: -10px 0px 25px #2d76fd6c,20px 0px 25px #fd532d76;
+	border: 1px solid grey;
+	
+	
+
+}
+.container{
+	display: flex;
+	align-items: center;
+	/* border: 1px solid red; */
+	padding: 15px 30px;
+}
+.seconds-pm{
+	font-size: 14px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	justify-content: space-between;
+	margin-left: 10px;
+}
+#minutes{
+	background: -webkit-linear-gradient(#f7af71, #fd542d);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+#colins{
+	color: grey;
+}
+#seconds{
+	color: #fd532d;
+	font-size: 20px;
+}
+
+.blinkit{
+	visibility: hidden;
+}
+.format-container{
+	margin-top: 50px;
+	background-color: #3d5864;
+	padding: 10px 30px;
+	color: white;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.radio-button{
+	width: 50px;
+	height: 20px;
+	background-color: rgb(32, 32, 32);
+	margin-left: 20px;
+	border-radius: 30px;
+	position: relative;
+	cursor: pointer;
+	transition: .5s all;
+}
+.radio-ball{
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	background-color: #fd532d;
+	border-radius: 50%;
+	transition: .5s all;
+}
+
+.radio-ball-on{
+	right: 0;
+	background-color: greenyellow;
+	transition: .5s all;
+}
+.credits{
+	color: white;
+	font-size: 15px;
+	margin-top: 50px;
+}
